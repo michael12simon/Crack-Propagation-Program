@@ -1,0 +1,263 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="2144806450" file="E:\Crack_Propagation_Program\C_CRACK.prj" location="E:\Crack_Propagation_Program" name="C_CRACK" preferred-package-location="E:\Crack_Propagation_Program\C_CRACK\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>C_CRACK</param.appname>
+    <param.icon>${PROJECT_ROOT}\C_CRACK_resources\icon.ico</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\C_CRACK_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\C_CRACK_resources\icon_32.png</file>
+      <file>${PROJECT_ROOT}\C_CRACK_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\C_CRACK_resources\icon_16.png</file>
+    </param.icons>
+    <param.version>1.0</param.version>
+    <param.authnamewatermark>michael simon p hutasoit</param.authnamewatermark>
+    <param.email>michael.hutasoit12@gmail.com</param.email>
+    <param.company>PT 3s Engineering</param.company>
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.guid />
+    <param.net.saved.interface />
+    <param.installpath.string>\PT 3s Engineering\C_CRACK\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\C_CRACK\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\C_CRACK\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\C_CRACK\for_redistribution</param.output>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.embed.ctf>true</param.embed.ctf>
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.required.mcr.products>
+      <item>35000</item>
+      <item>35010</item>
+      <item>35001</item>
+    </param.required.mcr.products>
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <unset>
+      <param.version />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.guid />
+      <param.net.saved.interface />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.embed.ctf />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\C_CRACK.m</file>
+    </fileset.main>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\C_CRACK.fig</file>
+      <file>${PROJECT_ROOT}\Creep.m</file>
+      <file>${PROJECT_ROOT}\Creep1.m</file>
+      <file>${PROJECT_ROOT}\GUI_Cylinder_KCECCE_with_Spectrum.fig</file>
+      <file>${PROJECT_ROOT}\GUI_Cylinder_KCECCE_with_Spectrum.m</file>
+      <file>${PROJECT_ROOT}\GUI_Cylinder_KCECCL_with_Spectrum.fig</file>
+      <file>${PROJECT_ROOT}\GUI_Cylinder_KCECCL_with_Spectrum.m</file>
+      <file>${PROJECT_ROOT}\GUI_Cylinder_KCECLE_with_Spectrum.fig</file>
+      <file>${PROJECT_ROOT}\GUI_Cylinder_KCECLE_with_Spectrum.m</file>
+      <file>${PROJECT_ROOT}\GUI_Cylinder_KCECLL_with_Spectrum.fig</file>
+      <file>${PROJECT_ROOT}\GUI_Cylinder_KCECLL_with_Spectrum.m</file>
+      <file>${PROJECT_ROOT}\GUI_Cylinder_KCSCCE1_with_Spectrum.fig</file>
+      <file>${PROJECT_ROOT}\GUI_Cylinder_KCSCCE1_with_Spectrum.m</file>
+      <file>${PROJECT_ROOT}\GUI_Cylinder_KCSCCE2_with_Spectrum.fig</file>
+      <file>${PROJECT_ROOT}\GUI_Cylinder_KCSCCE2_with_Spectrum.m</file>
+      <file>${PROJECT_ROOT}\GUI_Cylinder_KCSCCL1_with_Spectrum.fig</file>
+      <file>${PROJECT_ROOT}\GUI_Cylinder_KCSCCL1_with_Spectrum.m</file>
+      <file>${PROJECT_ROOT}\GUI_Cylinder_KCSCCL2_with_Spectrum.fig</file>
+      <file>${PROJECT_ROOT}\GUI_Cylinder_KCSCCL2_with_Spectrum.m</file>
+      <file>${PROJECT_ROOT}\GUI_Cylinder_KCSCLE1_with_Spectrum.fig</file>
+      <file>${PROJECT_ROOT}\GUI_Cylinder_KCSCLE1_with_Spectrum.m</file>
+      <file>${PROJECT_ROOT}\GUI_Cylinder_KCSCLE2_with_Spectrum.fig</file>
+      <file>${PROJECT_ROOT}\GUI_Cylinder_KCSCLE2_with_Spectrum.m</file>
+      <file>${PROJECT_ROOT}\GUI_Cylinder_KCSCLL1_with_Spectrum.fig</file>
+      <file>${PROJECT_ROOT}\GUI_Cylinder_KCSCLL1_with_Spectrum.m</file>
+      <file>${PROJECT_ROOT}\GUI_Cylinder_KCSCLL2_with_Spectrum.fig</file>
+      <file>${PROJECT_ROOT}\GUI_Cylinder_KCSCLL2_with_Spectrum.m</file>
+      <file>${PROJECT_ROOT}\GUI_Cylinder_KCTCC1_with_Spectrum.fig</file>
+      <file>${PROJECT_ROOT}\GUI_Cylinder_KCTCC1_with_Spectrum.m</file>
+      <file>${PROJECT_ROOT}\GUI_Cylinder_KCTCC2_with_Spectrum.fig</file>
+      <file>${PROJECT_ROOT}\GUI_Cylinder_KCTCC2_with_Spectrum.m</file>
+      <file>${PROJECT_ROOT}\GUI_Cylinder_KCTCL_with_Spectrum.fig</file>
+      <file>${PROJECT_ROOT}\GUI_Cylinder_KCTCL_with_Spectrum.m</file>
+      <file>${PROJECT_ROOT}\GUI_Others_KBSC_with_Spectrum.fig</file>
+      <file>${PROJECT_ROOT}\GUI_Others_KBSC_with_Spectrum.m</file>
+      <file>${PROJECT_ROOT}\GUI_Others_KBSCC_with_Spectrum.fig</file>
+      <file>${PROJECT_ROOT}\GUI_Others_KBSCC_with_Spectrum.m</file>
+      <file>${PROJECT_ROOT}\GUI_Others_KBSCL_with_Spectrum.fig</file>
+      <file>${PROJECT_ROOT}\GUI_Others_KBSCL_with_Spectrum.m</file>
+      <file>${PROJECT_ROOT}\GUI_Others_KBSCS_with_Spectrum.fig</file>
+      <file>${PROJECT_ROOT}\GUI_Others_KBSCS_with_Spectrum.m</file>
+      <file>${PROJECT_ROOT}\GUI_Others_KFWSCE1_with_Spectrum.fig</file>
+      <file>${PROJECT_ROOT}\GUI_Others_KFWSCE1_with_Spectrum.m</file>
+      <file>${PROJECT_ROOT}\GUI_Others_KNCC1_with_Spectrum.fig</file>
+      <file>${PROJECT_ROOT}\GUI_Others_KNCC1_with_Spectrum.m</file>
+      <file>${PROJECT_ROOT}\GUI_Others_KNCC_with_Spectrum.fig</file>
+      <file>${PROJECT_ROOT}\GUI_Others_KNCC_with_Spectrum.m</file>
+      <file>${PROJECT_ROOT}\GUI_Others_KRCSCCL1_with_Spectrum.fig</file>
+      <file>${PROJECT_ROOT}\GUI_Others_KRCSCCL1_with_Spectrum.m</file>
+      <file>${PROJECT_ROOT}\GUI_Others_KRCSCCL2_with_Spectrum.fig</file>
+      <file>${PROJECT_ROOT}\GUI_Others_KRCSCCL2_with_Spectrum.m</file>
+      <file>${PROJECT_ROOT}\GUI_Plate_KPECE1_with_Spectrum.fig</file>
+      <file>${PROJECT_ROOT}\GUI_Plate_KPECE1_with_Spectrum.m</file>
+      <file>${PROJECT_ROOT}\GUI_Plate_KPECE2_with_Spectrum.fig</file>
+      <file>${PROJECT_ROOT}\GUI_Plate_KPECE2_with_Spectrum.m</file>
+      <file>${PROJECT_ROOT}\GUI_Plate_KPECL_with_Spectrum.fig</file>
+      <file>${PROJECT_ROOT}\GUI_Plate_KPECL_with_Spectrum.m</file>
+      <file>${PROJECT_ROOT}\GUI_Plate_KPHSC1_with_Spectrum.fig</file>
+      <file>${PROJECT_ROOT}\GUI_Plate_KPHSC1_with_Spectrum.m</file>
+      <file>${PROJECT_ROOT}\GUI_Plate_KPHSC2_with_Spectrum.fig</file>
+      <file>${PROJECT_ROOT}\GUI_Plate_KPHSC2_with_Spectrum.m</file>
+      <file>${PROJECT_ROOT}\GUI_Plate_KPHTC1_with_Spectrum.fig</file>
+      <file>${PROJECT_ROOT}\GUI_Plate_KPHTC1_with_Spectrum.m</file>
+      <file>${PROJECT_ROOT}\GUI_Plate_KPHTC2_with_Spectrum.fig</file>
+      <file>${PROJECT_ROOT}\GUI_Plate_KPHTC2_with_Spectrum.m</file>
+      <file>${PROJECT_ROOT}\GUI_Plate_KPSCE1_with_Spectrum.fig</file>
+      <file>${PROJECT_ROOT}\GUI_Plate_KPSCE1_with_Spectrum.m</file>
+      <file>${PROJECT_ROOT}\GUI_Plate_KPSCE2_with_Spectrum.fig</file>
+      <file>${PROJECT_ROOT}\GUI_Plate_KPSCE2_with_Spectrum.m</file>
+      <file>${PROJECT_ROOT}\GUI_Plate_KPSCL1_with_Spectrum.fig</file>
+      <file>${PROJECT_ROOT}\GUI_Plate_KPSCL1_with_Spectrum.m</file>
+      <file>${PROJECT_ROOT}\GUI_Plate_KPTC_with_Spectrum.fig</file>
+      <file>${PROJECT_ROOT}\GUI_Plate_KPTC_with_Spectrum.m</file>
+      <file>${PROJECT_ROOT}\GUI_Sphere_KSECCE_with_Spectrum.fig</file>
+      <file>${PROJECT_ROOT}\GUI_Sphere_KSECCE_with_Spectrum.m</file>
+      <file>${PROJECT_ROOT}\GUI_Sphere_KSECCL_with_Spectrum.fig</file>
+      <file>${PROJECT_ROOT}\GUI_Sphere_KSECCL_with_Spectrum.m</file>
+      <file>${PROJECT_ROOT}\GUI_Sphere_KSSCCE1_with_Spectrum.fig</file>
+      <file>${PROJECT_ROOT}\GUI_Sphere_KSSCCE1_with_Spectrum.m</file>
+      <file>${PROJECT_ROOT}\GUI_Sphere_KSSCCE2_with_Spectrum.fig</file>
+      <file>${PROJECT_ROOT}\GUI_Sphere_KSSCCE2_with_Spectrum.m</file>
+      <file>${PROJECT_ROOT}\GUI_Sphere_KSSCCL1_with_Spectrum.fig</file>
+      <file>${PROJECT_ROOT}\GUI_Sphere_KSSCCL1_with_Spectrum.m</file>
+      <file>${PROJECT_ROOT}\GUI_Sphere_KSSCCL2_with_Spectrum.fig</file>
+      <file>${PROJECT_ROOT}\GUI_Sphere_KSSCCL2_with_Spectrum.m</file>
+      <file>${PROJECT_ROOT}\GUI_Sphere_KSTC_with_Spectrum.fig</file>
+      <file>${PROJECT_ROOT}\GUI_Sphere_KSTC_with_Spectrum.m</file>
+      <file>${PROJECT_ROOT}\Hydrogen_Rising.m</file>
+      <file>${PROJECT_ROOT}\Hydrogen_Timed.m</file>
+      <file>${PROJECT_ROOT}\KBSC.m</file>
+      <file>${PROJECT_ROOT}\KBSCC.m</file>
+      <file>${PROJECT_ROOT}\KBSCL.m</file>
+      <file>${PROJECT_ROOT}\KBSCS.m</file>
+      <file>${PROJECT_ROOT}\KCECCE.m</file>
+      <file>${PROJECT_ROOT}\KCECCL.m</file>
+      <file>${PROJECT_ROOT}\KCECLE.m</file>
+      <file>${PROJECT_ROOT}\KCECLL.m</file>
+      <file>${PROJECT_ROOT}\KCSCCE1.m</file>
+      <file>${PROJECT_ROOT}\KCSCCE2.m</file>
+      <file>${PROJECT_ROOT}\KCSCCL1.m</file>
+      <file>${PROJECT_ROOT}\KCSCCL2.m</file>
+      <file>${PROJECT_ROOT}\KCSCLE1.m</file>
+      <file>${PROJECT_ROOT}\KCSCLE2.m</file>
+      <file>${PROJECT_ROOT}\KCSCLL1.m</file>
+      <file>${PROJECT_ROOT}\KCSCLL2.m</file>
+      <file>${PROJECT_ROOT}\KCTCC1.m</file>
+      <file>${PROJECT_ROOT}\KCTCC2.m</file>
+      <file>${PROJECT_ROOT}\KCTCL.m</file>
+      <file>${PROJECT_ROOT}\KFWSCE1.m</file>
+      <file>${PROJECT_ROOT}\KNCC.m</file>
+      <file>${PROJECT_ROOT}\KNCC1.m</file>
+      <file>${PROJECT_ROOT}\KPECE1.m</file>
+      <file>${PROJECT_ROOT}\KPECE2.m</file>
+      <file>${PROJECT_ROOT}\KPECL.m</file>
+      <file>${PROJECT_ROOT}\KPHSC1.m</file>
+      <file>${PROJECT_ROOT}\KPHSC2.m</file>
+      <file>${PROJECT_ROOT}\KPHTC1.m</file>
+      <file>${PROJECT_ROOT}\KPHTC2.m</file>
+      <file>${PROJECT_ROOT}\KPSCE1.m</file>
+      <file>${PROJECT_ROOT}\KPSCE2.m</file>
+      <file>${PROJECT_ROOT}\KPSCL1.m</file>
+      <file>${PROJECT_ROOT}\KPTC.m</file>
+      <file>${PROJECT_ROOT}\KRCSCCL1.m</file>
+      <file>${PROJECT_ROOT}\KRCSCCL2.m</file>
+      <file>${PROJECT_ROOT}\KSECCE.m</file>
+      <file>${PROJECT_ROOT}\KSECCL.m</file>
+      <file>${PROJECT_ROOT}\KSSCCE1.m</file>
+      <file>${PROJECT_ROOT}\KSSCCE2.m</file>
+      <file>${PROJECT_ROOT}\KSSCCL1.m</file>
+      <file>${PROJECT_ROOT}\KSSCCL2.m</file>
+      <file>${PROJECT_ROOT}\KSTC.m</file>
+      <file>${PROJECT_ROOT}\Paris.m</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\C_CRACK\for_testing" name="C_CRACK.exe" optional="false">E:\Crack_Propagation_Program\C_CRACK\for_testing\C_CRACK.exe</file>
+      <file location="${PROJECT_ROOT}\C_CRACK\for_testing" name="readme.txt" optional="true">E:\Crack_Propagation_Program\C_CRACK\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\C_CRACK\for_testing" name="splash.png" optional="false">E:\Crack_Propagation_Program\C_CRACK\for_testing\splash.png</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\MATLAB Production Server\R2015a</root>
+      <toolboxes>
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.2</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
